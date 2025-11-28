@@ -1,0 +1,26 @@
+# --- Python & Jupyter Basics ---
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.virtual_documents/
+
+# --- Data Files (CRITICAL) ---
+# GitHub limits files to 100MB.
+# Never push your raw datasets.
+*.csv
+*.tsv
+*.zip
+*.tar.gz
+*.pkl
+/data/
+/datasets/
+
+# --- OS Junk ---
+.DS_Store
+Thumbs.db
+
+# --- Environment & Secrets ---
+# Never share API keys or environment configs
+.env
+venv/
+env/
